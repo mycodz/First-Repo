@@ -1,0 +1,81 @@
+/* styles.css */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* header {
+    background-color: black;  
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  } */
+
+  /* .tales {
+    width: 100%;
+  }
+  .carousel-inner{
+    width:100%;
+    max-height: 700px !important;
+  } */
+
+  
+  .carousel-item {
+    text-align: center !important; 
+  }
+  
+  /* Animasi Tombol */
+  .carousel-control-prev,
+  .carousel-control-next {
+    transition: transform 0.3s ease!important;
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    transform: scale(1.1)!important;
+  }
+
+  .navbar-brand {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; Ganti "Arial" dengan nama font yang Anda inginkan */
+    font-family: 'Pacifico', sans-serif !important;
+    color: green !important ;
+    font-size: 48px;
+  }
+
+  .navbar-brand img {
+    /* max-width: 50px; adjust the size as needed */
+    /* height: auto; */
+  }
+  .navbar-dark {
+    background-color: transparent !important;
+  }
+  
+ 
+
+  /* .carousel {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  } */
+  
