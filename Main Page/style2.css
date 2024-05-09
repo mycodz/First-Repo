@@ -20,9 +20,37 @@
     max-height: 700px !important;
   } */
 
-  
+  .first-slide {
+    background-image: url('../assets/img1.jpg');
+    /* position: relative; */
+    /* background-size: 100% 100%; */
+    background-position: center;
+    object-fit: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    width: 100%;
+  }
+
+  .second-slide {
+    background-image: url('../assets/kedua1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /* Sesuaikan tinggi sesuai kebutuhan */
+    width: 100%; /* Sesuaikan lebar sesuai kebutuhan */
+  }
+
+  .third-slide{
+    background-image: url('../assets/ketiga.JPG');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /* Sesuaikan tinggi sesuai kebutuhan */
+    width: 100%; /* Sesuaikan lebar sesuai kebutuhan */
+  }
   .carousel-item {
     text-align: center !important; 
+    
   }
   
   /* Animasi Tombol */
@@ -33,7 +61,7 @@
 
   .carousel-control-prev:hover,
   .carousel-control-next:hover {
-    transform: scale(1.1)!important;
+    /* transform: scale(1.1)!important; */
   }
 
   .navbar-brand {
